@@ -1,0 +1,29 @@
+# Core dependencies
+yfinance
+vaderSentiment
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+fastapi
+uvicorn
+joblib
+
+# Message queue (simplified - using Redis instead of Kafka for easier setup)
+redis
+
+# Database (using SQLite for simplicity instead of Couchbase)
+# sqlite3 is built into Python
+
+# Data fetching
+requests
+beautifulsoup4
+
+# Data fetching
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# ML and data processing
+joblib==1.3.2
+datetime
