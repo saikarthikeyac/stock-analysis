@@ -2,6 +2,8 @@
 
 A real-time stock market analysis system that predicts stock price movements using financial news sentiment and machine learning.
 
+This project covers the entire data workflow: automated news collection and sentiment scoring feed into a Redis-based producer/consumer queue, which drives a predictive model trained with feature engineering and Random Forest. Stock price data is fetched in real time via yfinance and stored alongside sentiment and predictions in SQLite. Results are served through a FastAPI backend and visualized in an interactive Streamlit dashboard. Together, these components illustrate end-to-end data analysis, machine learning, and distributed system design in a single cohesive application.
+
 ## 🏗️ System Architecture
 
 ```
