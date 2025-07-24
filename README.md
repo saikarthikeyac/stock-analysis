@@ -22,7 +22,6 @@ Financial News → News Producer → Redis Queue → Sentiment Consumer
                                             Streamlit Dashboard
 ```
 
-## 🎯 What This Project Does
 
 ## 🚀 How to Run
 
@@ -64,13 +63,7 @@ That's it! The system will automatically:
 - **AI predictions** (UP/DOWN) with confidence scores
 - **System statistics** and performance metrics
 
-## 🎓 Perfect for Resume
 
-This project demonstrates:
-- **Data Science** - ML models, feature engineering, sentiment analysis
-- **Data Analysis** - Stock market data, visualization, statistics
-- **Full-Stack Development** - API, database, web interface
-- **Real-time Systems** - Live data processing and updates
 
 ---
 *A complete stock market analysis system built with modern Python technologies*
